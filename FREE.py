@@ -199,7 +199,7 @@ def xxr():
                 pwx.append(Eman)
                 pwx.append(love)
             manshera.submit(rcrack,uid,pwx,tl)
-    print(f"\n{x} ••●●●●●○○○○○●●●●●○○○○○●●●●●○○○○○●●●●●○○○○○●●●●●○○○○○••")
+    print(f"\n{x}     print(f"\n{x} ══════════════════════════════════════════")
 def rcrack(uid,pwx,tl):
     #print(user)
     global loop
